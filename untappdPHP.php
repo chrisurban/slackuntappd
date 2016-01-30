@@ -14,6 +14,8 @@ class UntappdPHP {
 	public $client_id = "";
 	public $client_secret = "";
 	public $callback_url = "";
+	
+	public $slash_command = FALSE; // set to TRUE for use as /untappd in Slack
 
 	public $userAgent = "UntappdPHP-GH-1.0";
 	public $http_code;
